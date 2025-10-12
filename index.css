@@ -1,0 +1,194 @@
+/*the :root pesudo-class represents the html element */
+:root{
+--main-blue:#4980ff;
+--dark-blue: #28293E;
+--light-grey:#EFEFEF;
+--grey:#5c5c5c;
+
+}
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: "lato" , sans-serif;
+}
+.blue-bg{
+    background-color: var(--dark-blue);
+    color: white;
+}
+.container{
+    max-width: 940px;
+    margin: auto;
+}
+
+section .section-tittle{
+    font-size: 48px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    margin-bottom: 18px;
+    margin-top: 0;
+
+}
+section p {
+   font-size: 20px;
+   line-height : 32px;
+   color : var(--grey);
+}
+
+
+header{
+    
+    text-align: center;
+    padding: 20px 0;
+    
+    
+}
+ul{
+    list-style-type: none;
+    
+}
+header li{
+    display: inline;
+    
+    
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    margin: 0 22px;
+}
+section img#Profile{
+    width: 263px;
+    height: 263px;
+    border-radius: 270px;
+    
+}
+section#hero {
+    padding-top: 68px;
+    padding-bottom: 58px;
+   
+}
+section#hero h1{
+    font-size: 72px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 0;
+    letter-spacing: -2px;
+
+
+}
+section#hero h2{
+    font-size: 20px;
+    font-weight: normal;
+    color: var(--main-blue);
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+
+}
+section#hero P{
+    
+    
+    max-width: 465px;
+    margin: auto;
+    margin-bottom: 20px;
+    color: white;
+    
+    
+}
+section#hero ul{
+    padding: 0;
+    margin: 0 6px;
+}
+section#hero li {
+    display: inline;
+    
+}
+section#hero li img{
+    width: 37px;
+    height: 37px;
+}
+.button{
+    background-color: var(--main-blue);
+    padding: 12px 4px;
+    border-radius: 6px;
+}
+.button:hover{
+    background-color: purple;
+}
+video{
+    max-width: 100%;
+    height: auto;
+}
+section{
+    padding: 40px 0;
+}
+hr{
+    width: 70px;
+    height: 8px;
+    background-color:var(--main-blue);
+    margin: 16px auto 32px auto ;
+    border: none;
+}
+section#skillset span  {
+    display: inline-block;
+    background-color: var(--light-grey);
+    width: 146px;
+    height: 40px;
+    border-radius: 72px;
+    margin: 8px;
+    line-height: 40px;
+    font-size: 15px;
+    letter-spacing: -1px;
+}
+section#skillset .skills{
+
+    width: 500px;
+    margin: auto;
+}
+section#experience article{
+    border-bottom: 1px solid #d9d9d9 ;
+    padding: 30px 0 ;
+}
+
+section#experience article:last-of-type{
+    border-bottom: none;
+}
+section#experience article:first-of-type{
+    padding-top: 0;
+}
+section#experience article h3{
+    color: var(--grey);
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+section#experience article p{
+    margin: 0;
+}
+section#contact{
+    background-color: var(--light-grey);
+
+}
+section#contact a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+section#contact a img{
+    vertical-align: middle;
+    margin-right: 12px;
+}
+footer{
+    background-color: var(--light-grey);
+    font-size: 16px;
+    
+}
+footer .container{
+    border-top: 1px solid black;
+    padding: 24px 0;
+}
